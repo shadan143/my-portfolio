@@ -1,0 +1,55 @@
+#about {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  color: #333;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#about h2 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#about h3 {
+  margin-top: 30px;
+  color: #34495e;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+
+#about ul.education,
+#about ul.skills {
+  list-style-type: none;
+  padding: 0;
+}
+
+#about ul.education li,
+#about ul.skills li {
+  margin-bottom: 15px;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+#about ul.skills li {
+  display: inline-block;
+  margin: 6px;
+  background: #dfe6e9;
+  padding: 8px 12px;
+  border-radius: 6px;
+}

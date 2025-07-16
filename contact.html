@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2>📞 Contact Me</h2>
+
+      <div class="contact-info">
+        <p><strong>📧 Email:</strong> shadanyt17@gmail.com</p>
+        <p><strong>📱 Phone:</strong> +91 9182641412</p>
+        <p><strong>📍 Address:</strong> Kadiri, 515591, Sri Sathya Sai District, Andhra Pradesh</p>
+      </div>
+
+      <form action="https://formsubmit.co/shadanyt17@gmail.com" method="POST" id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <!-- Hidden Fields -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="thank-you.html" />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function () {
+      alert("Message sent! You will be contacted soon.");
+    });
+  </script>
+</body>
+</html>
